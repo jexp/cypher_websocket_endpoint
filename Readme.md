@@ -16,7 +16,7 @@
     {"query","start n=({ids}) return n", "params": {"ids" : [1,2]},"stats": true,"result":true}
 
     Response:
-    [n]
+    ["n"]
     [{"id":1,"data":{"name":"foo"}}]
     [{"id":2,"data":{"name":"bar"}}]
     {"time": 0, "rows": 2, "bytes": 100}
